@@ -1,7 +1,7 @@
 - 
-  group: "Main organizer"
+  #group: "Main organizer"
   elements: 
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+    - {name: "University of GDG Lviv", description: "University of Sheffield Catholic Chaplaincy", link: "https://www.jx10ministries.org/sheffield-university/", imageUrl: "chaplaincy.svg"}
 #- 
 #  group: "Co-organizers"
 #  elements: 
