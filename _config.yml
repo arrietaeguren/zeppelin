@@ -59,7 +59,7 @@ heroImage: "hero.jpg"
 heroTitle: "<typeout>"
 eventDate: "March 2018"
 typeoutTextValues: '"Mary&#39;s Meals", "Food", "Future", "£13.90 per year"'
-typeoutFallback: "Season"
+typeoutFallback: "Mary's Meals"
 heroButtons:
  - {link: "mailto:contact@jx10ministries", text: "Become a sponsor"}
  - {permalink: "/#tickets", text: "Buy tickets"}
@@ -74,9 +74,9 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "9", specialCharacter: "+", info: "children fed", detail: "so far"}
+ - {count: "9", specialCharacter: "", info: "children fed", detail: "so far"}
  - {count: "62.55", specialCharacter: "£", info: "raised", detail: ""}
- - {count: "0", specialCharacter: "+", info: "tickets sold", detail: ""}
+ - {count: "0", specialCharacter: "", info: "tickets sold", detail: ""}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
