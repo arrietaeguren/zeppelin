@@ -61,7 +61,7 @@ eventDate: "March 2018"
 typeoutTextValues: '"Mary&#39;s Meals", "Food", "Future", "£13.90 per year"'
 typeoutFallback: "Season"
 heroButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "mailto:contact@jx10ministries", text: "Become a sponsor"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
