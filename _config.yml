@@ -106,8 +106,8 @@ mapMobileCenterCoordinates: "49.841620, 24.029411"
 # Venue Block
 venueBlockTitle: "Venue"
 venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
+venueSmallImage1: "venue_0.jpg"
+venueSmallImage2: "venue_3.jpg"
 venueSmallImage3: "venue_3.jpg"
 venueTitle: "St Marie Cathedral"
 venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
@@ -120,7 +120,7 @@ twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_int
 
 # Partners Block
 organizersTitle: "Organizers"
-partnersTitle: "Partners"
+partnersTitle: "Sponsors"
 partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
