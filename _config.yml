@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "Mary's Meals Concert"
-email: "devfest@gdg.org.ua"
+email: "contact@jx10ministries"
 description: "GDG DevFest is a set of events all around the world"
 baseurl: "/zeppelin"
 url: "http://gdg-x.github.io"
@@ -37,7 +37,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
 c4pUrl: "http://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4sponsorsUrl: "mailto:contact@jx10ministries"
 
 
 # Navigation
@@ -77,7 +77,6 @@ statisticBlock:
  - {count: "9", specialCharacter: "+", info: "children fed", detail: "so far"}
  - {count: "62.55", specialCharacter: "£", info: "raised", detail: ""}
  - {count: "0", specialCharacter: "+", info: "tickets sold", detail: ""}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -92,14 +91,14 @@ rockstarSpeakersButtonText: "See all speakers"
 locationBlockTitle: "Location"
 eventLocationName: "St Marie Cathedral"
 eventLocationLink: "http://stmariecathedral.org/"
-eventStreetAddress: "22 Teatral'na St"
+eventStreetAddress: "Cathedral House, Norfolk St"
 eventAddressLocality: "Sheffield"
 eventAddressLocalityRegion: "South Yorkshire"
 eventPostalCode: "S1 2JB"
 eventAddressCountry: "United Kingdom"
-eventStartTime: "2014-10-25T10:00"
-eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
+eventStartTime: "2018-03-25T19:00"
+eventDoorTime: "19:00"
+eventEndTime: "2018-03-25T21:00"
 eventPlaceCoordinates: "49.843237, 24.028751"
 mapCenterCoordinates: "49.842537, 24.025701"
 mapMobileCenterCoordinates: "49.841620, 24.029411"
@@ -131,30 +130,30 @@ subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b052
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
-ticketsTitle: "Pricetable"
+ticketsTitle: "Join the"
 ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
 ticketsOffers:
  -
-  name: "Early Bird"
+  name: "Row 0"
   price: "£13.90"
   priceCurrency: ""
   ticketsNumber: "150"
   ribbon: "-5%"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  ticketContentList: ["Can't make it to the event?", "Dummy text of the printing", "Typesetting industry"]
   validFrom: "2014-08-25T10:00"
   validThrough: "2014-09-30T23:59"
  -
-  name: "Last Chance"
+  name: "1 Feed 2"
   price: "£13.90"
   priceCurrency: ""
   ticketsNumber: "100"
-  ribbon: "-20%"
+  ribbon: "Double the Love"
   featured: true
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  ticketContentList: ["Donations doubled until 31st December", "Each ticket feeds 2 children", "Typesetting industry"]
   validFrom: "2014-10-01T00:00"
   validThrough: "2014-10-23T23:59"
   disabled: true
