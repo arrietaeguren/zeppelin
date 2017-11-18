@@ -145,31 +145,29 @@ ticketsOffers:
   validFrom: "2014-08-25T10:00"
   validThrough: "2014-09-30T23:59"
  -
-  name: "1 Feed 2"
+  name: "Early Bird"
   price: "£13.90"
   priceCurrency: ""
   ticketsNumber: "100"
-  ribbon: "Double the Love"
+  ribbon: "2 Kids"
   featured: true
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Donations doubled until 31st December", "Each ticket feeds 2 children", "Typesetting industry"]
+  ticketContentList: ["Each ticket feeds 2 children", "Donations doubled until 31st December"]
   validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
-  disabled: true
+  validThrough: "2018-01-01T00:00"
  -
   name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
+  price: "£13.90"
+  priceCurrency: ""
   ticketsNumber: "50"
+  ribbon: "1 Kid"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
+  validFrom: "2018-01-01T00:00"
   validThrough: "2014-10-23T23:59"
-  soldOut: true
-  soldOutText: "Sold Out"
 
 # Footer
 socialLinks:
