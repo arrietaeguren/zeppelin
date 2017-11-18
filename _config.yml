@@ -56,9 +56,9 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
+heroTitle: "<typeout>"
 eventDate: "March 2018"
-typeoutTextValues: '"", "£13.90 per year", "Food", "Future", "USA"'
+typeoutTextValues: '"", "Mary's Meals", "£13.90 per year", "Food", "Future", "USA"'
 typeoutFallback: "Season"
 heroButtons:
  - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
