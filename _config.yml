@@ -114,9 +114,9 @@ venueFeatures: ["Cathedral House, Norfolk St", "Sheffield S1 2JB"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+tweetsFeedTitle: "Comment with"
+twitterHashTag: "#MarysMealsOnCampus"
+twitterFeed: ""
 
 # Partners Block
 organizersTitle: "Organizers"
