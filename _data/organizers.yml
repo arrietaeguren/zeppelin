@@ -1,7 +1,7 @@
 - 
   #group: "Main organizer"
   elements: 
-    - {name: "Catholic Chaplincy Fellowship", description: "University of Sheffield Catholic Chaplaincy", link: "https://www.jx10ministries.org/sheffield-university/", imageUrl: "chaplaincy.jpg"}
+    - {name: "Catholic Chaplincy Fellowship", description: "University of Sheffield Catholic Chaplaincy", link: "https://www.jx10ministries.org/sheffield-university/", imageUrl: "chaplaincy.png"}
 #- 
 #  group: "Co-organizers"
 #  elements: 
