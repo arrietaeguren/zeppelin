@@ -99,16 +99,16 @@ eventAddressCountry: "United Kingdom"
 eventStartTime: "2018-03-25T19:00"
 eventDoorTime: "19:00"
 eventEndTime: "2018-03-25T21:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventPlaceCoordinates: "53.381259, -1.468590"
+mapCenterCoordinates: "53.381259, -1.468590"
+mapMobileCenterCoordinates: "53.381259, -1.468590"
 
 # Venue Block
 venueBlockTitle: "Venue"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_0.jpg"
 venueSmallImage2: "venue_3.jpg"
-venueSmallImage3: "venue_3.jpg"
+venueSmallImage3: "venue_1.jpg"
 venueTitle: "St Marie Cathedral"
 venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
 
