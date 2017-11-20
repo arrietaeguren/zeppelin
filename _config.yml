@@ -110,7 +110,7 @@ venueSmallImage1: "venue_0.jpg"
 venueSmallImage2: "venue_3.jpg"
 venueSmallImage3: "venue_1.jpg"
 venueTitle: "St Marie Cathedral"
-venueFeatures: ["Cathedral House, Norfolk St, Sheffield S1 2JB", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueFeatures: ["Cathedral House, Norfolk St", "Sheffield S1 2JB"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
