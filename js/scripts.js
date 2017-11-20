@@ -364,10 +364,10 @@
             var mapOptions = {
                 zoom: 17,
                 minZoom: 2,
-                scrollwheel: false,
+                scrollwheel: true,
                 panControl: false,
                 draggable: true,
-                zoomControl: false,
+                zoomControl: true,
                 zoomControlOptions: {
                     position: google.maps.ControlPosition.RIGHT_TOP
                 },
