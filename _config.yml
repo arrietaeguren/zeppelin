@@ -110,7 +110,7 @@ venueSmallImage1: "venue_0.jpg"
 venueSmallImage2: "venue_3.jpg"
 venueSmallImage3: "venue_1.jpg"
 venueTitle: "St Marie Cathedral"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueFeatures: ["Cathedral House, Norfolk St, Sheffield S1 2JB", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
@@ -175,20 +175,20 @@ socialLinks:
  - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
  - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
-footerBlocks:
- -
-  title: "Links"
-  links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
- -
-  title: "Contacts"
-  links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+#footerBlocks:
+ #-
+  #title: "Links"
+  #links:
+  # - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
+  # - {link: "https://developers.google.com", text: "Google Developers"}
+# -
+#  title: "Contacts"
+#  links:
+#   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+ #-
+  #title: "FAQ"
+  #links:
+  # - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
 blogTitle: "Latest news"
