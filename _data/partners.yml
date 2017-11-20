@@ -2,4 +2,4 @@
   #group: "General sponsor"
   elements: 
     - {name: "St Marie Cathedral", description: "St Marie Cathedral", link: "http://stmariecathedral.org/", imageUrl: "stmarie.png"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+    - {name: "ticketea", description: "ticketea", link: "http://www.ticketea.com/", imageUrl: "logoTicketea.png"}
