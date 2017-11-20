@@ -1,5 +1,5 @@
 - 
   #group: "General sponsor"
   elements: 
-    - {name: "St Marie Cathedral", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+    - {name: "St Marie Cathedral", description: "St Marie Cathedral", link: "http://stmariecathedral.org/", imageUrl: "stmarie.png"}
     - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
