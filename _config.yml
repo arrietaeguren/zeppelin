@@ -114,9 +114,9 @@ venueFeatures: ["Cathedral House, Norfolk St", "Sheffield S1 2JB"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: "Comment with"
-twitterHashTag: "#MarysMealsOnCampus"
-twitterFeed: ""
+tweetsFeedTitle: ""
+twitterHashTag: "MarysMealsOnCampus"
+twitterFeed: "marysmealsoncampus"
 
 # Partners Block
 organizersTitle: "Organizers"
