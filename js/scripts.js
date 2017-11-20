@@ -368,6 +368,7 @@
                 panControl: false,
                 draggable: true,
                 zoomControl: true,
+                fullscreenControl: false,
                 zoomControlOptions: {
                     position: google.maps.ControlPosition.RIGHT_TOP
                 },
