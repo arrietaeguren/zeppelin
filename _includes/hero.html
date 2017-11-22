@@ -7,7 +7,7 @@
             {% assign heroText = site.heroTitle | split:"<typeout>" %}
             <h1>{{ heroText[0] }}
                 <span style="background:#009ddc; padding: 5px">
-                    <span id="typeout-text"></span>{{ heroText[1] }}
+                    <span id="typeout-text"></span><span class="typeout-fallback hidden-xs">{{ site.typeoutFallback }}</span>{{ heroText[1] }}
                 </span>
             </h1>
             <p>{{ site.eventDate }}</p>
