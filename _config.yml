@@ -58,7 +58,7 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
 eventDate: ""
-typeoutTextValues: '"Mary&#39;s Meals", "Food", "Future", "£13.90 per year"'
+typeoutTextValues: '"Music", "School", "Food", "Hope", "Mary&#39;s Meals"'
 typeoutFallback: "Mary's Meals"
 heroButtons:
  - {link: "mailto:contact@jx10ministries", text: "Become a sponsor"}
