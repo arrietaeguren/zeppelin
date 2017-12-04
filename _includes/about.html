@@ -3,8 +3,8 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <h3>{{ site.aboutTitle }}</h3>
-            <!--<div class="row about-details">
-                {% assign animationDelay = 0 %}
+            <div class="row about-details">
+                <!--    {% assign animationDelay = 0 %}
                 {% for about in site.aboutBlock %}
                 {% assign colWidth = 12 | divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} col-xs-6">  
@@ -18,12 +18,16 @@
                 {% assign check = forloop.index | modulo:2 %}
                 {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
                 {% endfor %}
-
-                
-                j4GfsZWnvaI
-            </div>-->
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xMUAUlmIy5c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            -->
+                <div class="col-xs-6">
+                    <h5><b>Quick Facts</b></h5>
+                    <p>Mary's Meals provide schools meals to 1,230,171 children a day.</p>
+                    <p>Mary's Meals biggest assest is it's army of local volunteers</p>
+                    <p>It cost only £13.90 to feed a child for a year</p>
+                </div>
+                <div class="col-xs-6">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xMUAUlmIy5c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </div>
