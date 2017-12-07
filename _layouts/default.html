@@ -60,7 +60,7 @@ layout: compress
     <script>
         Waves.displayEffect();
         {% if page.permalink == '/' %}
-            if ($(window).width() > 767) {
+            if ($(window).width() > 0*767) {
                 var googleMaps = 'index',
                     eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates | replace:' ','' }}),
                     centerMap = new google.maps.LatLng({{ site.mapCenterCoordinates | replace:' ','' }}),
@@ -76,7 +76,7 @@ layout: compress
             var twitterFeedUrl = '{{ site.twitterFeed }}';
             $(document).ready(function () {
                 $(function () {
-                    if ($(window).width() > 767) {
+                    if ($(window).width() > 0*767) {
                         $("#typeout-text").typed({
                             strings: [{{site.typeoutTextValues}}],
                             typeSpeed: 150,
