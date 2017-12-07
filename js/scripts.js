@@ -11,7 +11,7 @@
         if ($(window).width() > 1500) {
             $('.effect-wrapper').addClass('col-lg-3');
         }
-        if ($(window).width() < 168) {
+        if ($(window).width() < 512) {
             $('.animated').removeClass('animated').removeClass('hiding');
             $('.stat span').removeClass('timer');
             $('.timeslot-label').addClass('stick-label');
