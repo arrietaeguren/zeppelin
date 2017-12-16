@@ -74,9 +74,9 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "12", specialCharacter: "", info: "children fed", detail: ""}
- - {count: "87", specialCharacter: "£", info: "raised", detail: ""}
- - {count: "0", specialCharacter: "", info: "tickets sold", detail: ""}
+ - {count: "31", specialCharacter: "", info: "children fed", detail: ""}
+ - {count: "217", specialCharacter: "£", info: "raised", detail: ""}
+ - {count: "6", specialCharacter: "", info: "tickets sold", detail: ""}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
