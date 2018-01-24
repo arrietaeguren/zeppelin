@@ -74,9 +74,9 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "31", specialCharacter: "", info: "children fed", detail: ""}
- - {count: "217", specialCharacter: "£", info: "raised", detail: ""}
- - {count: "6", specialCharacter: "", info: "tickets sold", detail: ""}
+ - {count: "71", specialCharacter: "", info: "children fed", detail: ""}
+ - {count: "490", specialCharacter: "£", info: "raised", detail: ""}
+ - {count: "19", specialCharacter: "", info: "tickets sold", detail: ""}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -134,18 +134,18 @@ ticketsTitle: "Joing the "
 ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
 ticketsOffers:
  -
-  name: "Row 0"
+  name: "Invite a vulnerable adult"
   price: "£13.90"
   priceCurrency: ""
   ticketsNumber: "150"
-  ribbon: "-5%"
+  ribbon: "2 Kids"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Can't make it to the event?", "Dummy text of the printing", "Typesetting industry"]
+  ticketContentList: ["Can't make it to the event?", "Invite a vulnerable adult to take your seat"]
   validFrom: "2014-08-25T10:00"
   validThrough: "2014-09-30T23:59"
  -
-  name: "Early Bird"
+  name: "Normal Tickets"
   price: "£13.90"
   priceCurrency: ""
   ticketsNumber: "100"
