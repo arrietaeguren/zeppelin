@@ -57,7 +57,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
-eventDate: ""
+eventDate: "10th March 2018"
 typeoutTextValues: '"Music", "School", "Food", "Hope", "Mary&#39;s Meals"'
 typeoutFallback: "Mary's Meals"
 heroButtons:
