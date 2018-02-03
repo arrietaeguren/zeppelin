@@ -4,31 +4,20 @@
         <div class="col-lg-10 col-lg-offset-1">
             <h3>{{ site.aboutTitle }}</h3>
             <div class="row about-details">
-                <!--    {% assign animationDelay = 0 %}
-                {% for about in site.aboutBlock %}
-                {% assign colWidth = 12 | divided_by: forloop.length %}
-                <div class="col-md-{{ colWidth }} col-xs-6">  
+                {% assign animationDelay = 0 %} {% for about in site.aboutBlock %} {% assign colWidth = 12 | divided_by: forloop.length %}
+                <div class="col-md-{{ colWidth }} col-xs-6">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5>{{ about.title }}</h5>
                         <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}" height="128" width="128" alt="{{ about.title }}">
                         <p>{{ about.text }}</p>
                     </div>
                 </div>
-                {% assign animationDelay = animationDelay | plus:500 %}
-                {% assign check = forloop.index | modulo:2 %}
-                {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
-                {% endfor %}
-            -->
-                <div class="col-md-6">
-                    <h5><b>Quick Facts</b></h5>
-                    <p>61 million of the world's hungriest children do not attend school</p>
-                    <p>Mary's Meals provide schools meals to 1,230,171 children a day</p>
-                    <p>Thanks to thousands of local volunteers, it cost only £13.90 to feed a child for a year</p>
-                </div>
-                <div class="col-md-6">
-                    <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/xMUAUlmIy5c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                </div>
+                {% assign animationDelay = animationDelay | plus:500 %} {% assign check = forloop.index | modulo:2 %} {% if check == 0 %}
+                <div class="clearfix visible-xs"></div> {% endif %} {% endfor %}
             </div>
+        </div>
+        <div class="col-lg-10 col-lg-offset-1">
+            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/xMUAUlmIy5c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </section>
