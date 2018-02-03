@@ -81,9 +81,9 @@ aboutLiberiaBlock:
  # About Where To Buy
 whereToTitle: "Where to buy"
 whereToBlock:
- - {title: "Sheffield", image: "sheffield.jpg", text: "Mary’s Meals provide daily meals to 126,002 children across Liberia. A normal school meal consist of rice and peas, supplemented by fresh vegetables or vitamin-enriched porridge, supplemented by fresh vegetables." }
+ - {title: "Sheffield", image: "sheffield.jpg", text: "Coming soon." }
  - {title: "Chesterfield", image: "chesterfield.jpg", text: "Pop in for a cup of coffee and buy a ticket at Fabrico 15 Soresby St, Chesterfield S40 1JW" }
- - {title: "Email", image: "email.png", text: "Make a donation at https://www.marysmeals.org.uk and forward us tickets@foodschoolhope.org the confirmation email. You will receive an e-ticket in a few hours" }
+ - {title: "Email", image: "email.png", text: "Make a donation at https://www.marysmeals.org.uk and forward us the confirmation email to tickets@foodschoolhope.org. You will receive an e-ticket in a few hours" }
 
 # Concert Block
 concertTitle: "Concert"
