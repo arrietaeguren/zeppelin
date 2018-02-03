@@ -1,10 +1,10 @@
 <!-- About Concert Section -->
 <section id="about-concert" class="about">
-    <!--<div class="content-wrapper">
+    <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3>{{ site.aboutLiberiaTitle }}</h3>
+            <h3>{{ site.concertTitle }}</h3>
             <div class="row about-details">
-                {% assign animationDelay = 0 %} {% for about in site.aboutLiberiaBlock %} {% assign colWidth = 12 | divided_by: forloop.length %}
+                {% assign animationDelay = 0 %} {% for about in site.aboutConcertBlock %} {% assign colWidth = 12 | divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} col-xs-6">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5>{{ about.title }}</h5>
@@ -15,12 +15,9 @@
                 {% assign animationDelay = animationDelay | plus:500 %} {% assign check = forloop.index | modulo:2 %} {% if check == 0 %}
                 <div class="clearfix visible-xs"></div> {% endif %} {% endfor %}
             </div>
-        </div>
-        <!--<div class="col-lg-10 col-lg-offset-1">
-            <iframe width="100%" height="615" src="https://www.youtube-nocookie.com/embed/xMUAUlmIy5c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>- ->
+        </div> 
     </div>
-    <!--<section id="rockstar-speakers" class="rockstar-speakers image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.rockstarSpeakersImage }});">-->
+    <!--<section id="rockstar-speakers" class="rockstar-speakers image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.rockstarSpeakersImage }});">- ->
     <div class="overlay solid-overlay"></div>
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1 rockstar-speakers-list">
@@ -30,6 +27,6 @@
                 <a href="{{ site.baseurl }}/speakers/" class="bottom-section-link waves-effect waves-button waves-light">{{ site.rockstarSpeakersButtonText }}</a>
             </span>
         </div>
-    </div>
+    </div>-->
 </section>
 <!-- End About Section -->

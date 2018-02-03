@@ -79,11 +79,19 @@ aboutLiberiaBlock:
  - {title: "Suehn Village School", image: "suehn.jpg", text: "All the fund raised will go to Suehn Village Public School, a school with 293 students in Bomi County, in the West part of Liberia." }
 
  # About Where To Buy
-whereToTitle: "Who are we helping?"
+whereToTitle: "Where to buy"
 whereToBlock:
  - {title: "Chesterfield", image: "liberia.jpg", text: "Starting in 1989, a brutal 14-year civil war forced most of the country’s children out of the classroom and destroyed the majority of schools. Despite a decade of unbroken peace, 60% of Liberian children don’t go to school." }
  - {title: "Sheffield", image: "rice.jpg", text: "Mary’s Meals provide daily meals to 126,002 children across Liberia. A normal school meal consist of rice and peas, supplemented by fresh vegetables or vitamin-enriched porridge, supplemented by fresh vegetables." }
  - {title: "Email", image: "suehn.jpg", text: "All the fund raised will go to Suehn Village Public School, a school with 293 students in Bomi County, in the West part of Liberia." }
+
+# Concert Block
+concertTitle: "Concert"
+aboutConcertBlock:
+ - {title: "Date & Time", image: "date.jpg", text: "Starting in 1989, a brutal 14-year civil war forced most of the country’s children out of the classroom and destroyed the majority of schools. Despite a decade of unbroken peace, 60% of Liberian children don’t go to school." }
+ - {title: "Sheffield", image: "rice.jpg", text: "Mary’s Meals provide daily meals to 126,002 children across Liberia. A normal school meal consist of rice and peas, supplemented by fresh vegetables or vitamin-enriched porridge, supplemented by fresh vegetables." }
+ - {title: "Email", image: "suehn.jpg", text: "All the fund raised will go to Suehn Village Public School, a school with 293 students in Bomi County, in the West part of Liberia." }
+
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
