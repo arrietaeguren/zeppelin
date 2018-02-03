@@ -137,15 +137,15 @@ ticketsOffers:
   name: "Invite a vulnerable adult"
   price: "£13.90"
   priceCurrency: ""
-  ticketsNumber: "150"
+  #ticketsNumber: "150"
   #ribbon: "2 Kids"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   ticketContentList: ["Can't make it to the event?", "Invite a vulnerable adult to take your seat"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
+  #validFrom: "2014-08-25T10:00"
+  #validThrough: "2014-09-30T23:59"
  -
-  name: "Normal Tickets"
+  name: "General Public"
   price: "£13.90"
   priceCurrency: ""
   ticketsNumber: "100"
@@ -158,14 +158,14 @@ ticketsOffers:
   validThrough: "2018-01-01T00:00"
  -
   name: "Student"
-  price: "£13.90"
+  price: "£6.95"
   priceCurrency: ""
   ticketsNumber: "50"
-  ribbon: ""
+  #ribbon: ""
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  ticketContentList: ["Are you a student?", "We got 2x1 on students tickets!"]
   validFrom: "2018-01-01T00:00"
   validThrough: "2014-10-23T23:59"
 
