@@ -88,7 +88,7 @@ whereToBlock:
 # Concert Block
 concertTitle: "Concert"
 aboutConcertBlock:
- - {title: "Date & Time", image: "date.jpg", text: "10th of March. Exhibition is open from 7pm. Music starts at 7.45pm." } 
+ - {title: "Date & Time", image: "date.jpg", text: "Saturday 10th of March 2018. Exhibition is open from 7pm. Music starts at 7.45pm." } 
  - {title: "Musicians", image: "musicians.jpg", text: "The Valette Piano Trio" }
  - {title: "Music", image: "rice.jpg", text: "Tchaikovsky Piano trio and Haydn Gypsy Rondo" }
 
@@ -164,8 +164,8 @@ ticketsOffers:
   buyButtonLink: "#howtobuy"
   buyButtonText: "Buy Now"
   ticketContentList: ["Can't make it to the event?", "Invite a vulnerable adult to take your seat"]
-  #validFrom: "2014-08-25T10:00"
-  #validThrough: "2014-09-30T23:59"
+  validFrom: "2014-08-25T10:00"
+  validThrough: "2014-09-30T23:59"
  -
   name: "General Public"
   price: "£13.90"
@@ -176,8 +176,8 @@ ticketsOffers:
   buyButtonLink: "#howtobuy"
   buyButtonText: "Buy Now"
   ticketContentList: ["Each ticket feeds 2 children", "Donations doubled until 31st December"]
-  #validFrom: "2014-10-01T00:00"
-  #validThrough: "2018-01-01T00:00"
+  validFrom: "2014-10-01T00:00"
+  validThrough: "2018-01-01T00:00"
  -
   name: "Student"
   price: "£6.95"
@@ -188,8 +188,8 @@ ticketsOffers:
   buyButtonText: "Buy Now"
   #additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
   ticketContentList: ["Are you a student?", "We got 2x1 on students tickets!"]
-  #validFrom: "2018-01-01T00:00"
-  #validThrough: "2014-10-23T23:59"
+  validFrom: "2018-01-01T00:00"
+  validThrough: "2014-10-23T23:59"
 
 # Footer
 socialLinks:
