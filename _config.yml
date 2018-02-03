@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Mary's Meals Concert"
+title: "Music for Mary's Meals"
 email: "contact@jx10ministries"
-description: "GDG DevFest is a set of events all around the world"
+description: "Music for Mary's Meals"
 baseurl: ""
 url: "http://gdg-x.github.io"
 permalink: "/blog/:title"
@@ -61,7 +61,7 @@ eventDate: "10th March 2018"
 typeoutTextValues: '"Music", "School", "Food", "Hope", "Mary&#39;s Meals"'
 typeoutFallback: "Mary's Meals"
 heroButtons:
- - {link: "mailto:contact@jx10ministries", text: "Become a sponsor"}
+# - {link: "mailto:contact@jx10ministries", text: "Become a sponsor"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
@@ -130,15 +130,15 @@ subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b052
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
-ticketsTitle: "Joing the "
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsTitle: "Tickets"
+ticketsInfo: "Tickets grant access to exhibition, short film, and concert."
 ticketsOffers:
  -
   name: "Invite a vulnerable adult"
   price: "£13.90"
   priceCurrency: ""
   ticketsNumber: "150"
-  ribbon: "2 Kids"
+  #ribbon: "2 Kids"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   ticketContentList: ["Can't make it to the event?", "Invite a vulnerable adult to take your seat"]
@@ -149,7 +149,7 @@ ticketsOffers:
   price: "£13.90"
   priceCurrency: ""
   ticketsNumber: "100"
-  ribbon: "2 Kids"
+  #ribbon: "2 Kids"
   featured: true
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
@@ -161,7 +161,7 @@ ticketsOffers:
   price: "£13.90"
   priceCurrency: ""
   ticketsNumber: "50"
-  ribbon: "1 Kid"
+  ribbon: ""
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
@@ -207,7 +207,7 @@ findWayTitle: "Find your way here"
 findWayDistance: "Distance"
 findWayDriving: "DRIVING"
 findWayWalking: "WALKING"
-findWayBicycling: "BICYCLING"
+findWayBicycling: "CYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
 logisticsMapCenterCoordinates: "49.056728, 3.117289"
