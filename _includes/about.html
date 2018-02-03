@@ -2,7 +2,7 @@
 <section id="about" class="about">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3>{{ site.aboutTitle }}</h3>
+            <h3>{{ site.aboutLiberiaTitle }}</h3>
             <div class="row about-details">
                 {% assign animationDelay = 0 %} {% for about in site.aboutBlock %} {% assign colWidth = 12 | divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} col-xs-6">
@@ -17,11 +17,10 @@
             </div>
         </div>
     </div>
-</section>
-<section id="aboutLiberia" class="about">
+<!--</section>
+<section id="aboutLiberia" class="about">-->
     <div class="content-wrapper">
-        <div class="col-lg-10 col-lg-offset-1">
-            <h3>{{ site.aboutLiberiaTitle }}</h3>
+        <div class="col-lg-10 col-lg-offset-1">           
             <div class="row about-details">
                 {% assign animationDelay = 0 %} {% for about in site.aboutLiberiaBlock %} {% assign colWidth = 12 | divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} col-xs-6">
