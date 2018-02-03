@@ -25,11 +25,9 @@
             {% endfor %}
         </div>
     </div>
-</section>
-<section id="howtobuy">
-    <div class="content-wrapper">
+    <div class="content-wrapper" id="howtobuy">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3>{{ site.whereToTitle }}</h3>
+            <h5>{{ site.whereToTitle }}</h5>
             <div class="row about-details">
                 {% assign animationDelay = 0 %} {% for about in site.whereToBlock %} {% assign colWidth = 12 | divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} col-xs-6">

@@ -88,9 +88,9 @@ whereToBlock:
 # Concert Block
 concertTitle: "Concert"
 aboutConcertBlock:
- - {title: "Date & Time", image: "date.jpg", text: "Starting in 1989, a brutal 14-year civil war forced most of the country’s children out of the classroom and destroyed the majority of schools. Despite a decade of unbroken peace, 60% of Liberian children don’t go to school." }
- - {title: "Sheffield", image: "rice.jpg", text: "Mary’s Meals provide daily meals to 126,002 children across Liberia. A normal school meal consist of rice and peas, supplemented by fresh vegetables or vitamin-enriched porridge, supplemented by fresh vegetables." }
- - {title: "Email", image: "suehn.jpg", text: "All the fund raised will go to Suehn Village Public School, a school with 293 students in Bomi County, in the West part of Liberia." }
+ - {title: "Date & Time", image: "date.jpg", text: "10th of March. Exhibition is open from 7pm. Music starts at 7.45pm." } 
+ - {title: "Musicians", image: "suehn.jpg", text: "The Valette Piano Trio" }
+ - {title: "Music", image: "rice.jpg", text: "Tchaikovsky Piano trio and Haydn Gypsy Rondo" }
 
 
 # Statistic Block
