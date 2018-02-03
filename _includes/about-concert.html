@@ -5,7 +5,7 @@
             <h3>{{ site.concertTitle }}</h3>
             <div class="row about-details">
                 {% assign animationDelay = 0 %} {% for about in site.aboutConcertBlock %} {% assign colWidth = 12 | divided_by: forloop.length %}
-                <div class="col-md-{{ colWidth }} col-xs-6">
+                <div class="col-md-{{ colWidth }} col-xs-12">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5>{{ about.title }}</h5>
                         <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}" height="128" width="128" alt="{{ about.title }}">
@@ -57,7 +57,7 @@
             </div>
         </div>
 
-        
+
     </div>
     <!--<section id="rockstar-speakers" class="rockstar-speakers image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.rockstarSpeakersImage }});">- ->
     <div class="overlay solid-overlay"></div>
