@@ -16,27 +16,27 @@ description: "Music for Mary's Meals"
 baseurl: ""
 url: "http://gdg-x.github.io"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+#googleAnalyticsTrackingId: "UA-43643469-5"
+#googleAnalyticsSiteUrl: "gdg-x.github.io"
+#siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
 organizerName: "Catholic Chaplaincy"
 organizerAlternateName: "University of Sheffield Catholic Chaplaincy"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
-organizerLogo: "/img/seo/organizer-logo.png"
+#organizerEmail: "lviv@gdg.org.ua"
+#organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "https://www.jx10ministries.org/sheffield-university/"
 
 # Head
 metaKeywords: "marysmeals, charity, children, food, concert"
-twitterAccount: "@DevFest"
+#twitterAccount: "@DevFest"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "http://bit.ly/dfua-c4p"
+#c4pUrl: "http://bit.ly/dfua-c4p"
 c4sponsorsUrl: "mailto:contact@jx10ministries"
 
 
@@ -71,12 +71,19 @@ aboutBlock:
  - {title: "Food", image: "food.png", text: "Mary's Meals provide schools meals to 1,230,171 children a day. Allowing them to attend schools, and increasing their attention by filling their stomachs." }
  - {title: "Hope", image: "hope.jpg", text: "Thanks to thousands of local volunteers, it cost only £13.90 to feed a child for a year. Together, we can bring hope to the next child." }
 
- # About Block
+ # About Liberia Block
 aboutLiberiaTitle: "Who are we helping?"
 aboutLiberiaBlock:
  - {title: "Liberia", image: "liberia.jpg", text: "Starting in 1989, a brutal 14-year civil war forced most of the country’s children out of the classroom and destroyed the majority of schools. Despite a decade of unbroken peace, 60% of Liberian children don’t go to school." }
  - {title: "Mary’s Meals in Liberia", image: "rice.jpg", text: "Mary’s Meals provide daily meals to 126,002 children across Liberia. A normal school meal consist of rice and peas, supplemented by fresh vegetables or vitamin-enriched porridge, supplemented by fresh vegetables." }
  - {title: "Suehn Village School", image: "suehn.jpg", text: "All the fund raised will go to Suehn Village Public School, a school with 293 students in Bomi County, in the West part of Liberia." }
+
+ # About Where To Buy
+whereToTitle: "Who are we helping?"
+whereToBlock:
+ - {title: "Chesterfield", image: "liberia.jpg", text: "Starting in 1989, a brutal 14-year civil war forced most of the country’s children out of the classroom and destroyed the majority of schools. Despite a decade of unbroken peace, 60% of Liberian children don’t go to school." }
+ - {title: "Sheffield", image: "rice.jpg", text: "Mary’s Meals provide daily meals to 126,002 children across Liberia. A normal school meal consist of rice and peas, supplemented by fresh vegetables or vitamin-enriched porridge, supplemented by fresh vegetables." }
+ - {title: "Email", image: "suehn.jpg", text: "All the fund raised will go to Suehn Village Public School, a school with 293 students in Bomi County, in the West part of Liberia." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
