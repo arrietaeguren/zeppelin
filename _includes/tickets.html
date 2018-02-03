@@ -1,43 +1,39 @@
 <!-- Begin Tickets Section -->
 <section id="tickets" class="tickets">
-	<div class="content-wrapper">
-		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
-			<h3>{{ site.ticketsTitle }}</h3>
-            {% for ticketsOffer in site.ticketsOffers %}
-	            {% assign colWidth = 12 | divided_by: forloop.length %}
-	            {% assign check = forloop.index | modulo:2 %}
-	            <div class="col-md-{{ colWidth }} col-sm-{{ colWidth }} pricing-col {% if ticketsOffer.featured != null %}pricing-col-featured{% endif %} animated hiding" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
-	            	{% if ticketsOffer.ribbon != null %}<div class="pricing-ribbon">{{ ticketsOffer.ribbon }}</div>{% endif %}
-					<div class="pricing-header">
-						<p class="title">{{ ticketsOffer.name }}</p>
-						<p class="price">{{ ticketsOffer.price }} <span class="currency">{{ ticketsOffer.priceCurrency }}</span></p>
-					</div>
-					<div class="pricing-content">
-						<ul>
-							{% for listItem in ticketsOffer.ticketContentList %}
-							<li>{{ listItem }}</li>
-							{% endfor %}
-						</ul>
-						{% if ticketsOffer.soldOut == true %}
-						<span class="button disabled">{{ ticketsOffer.soldOutText }}</span>
-						{% elsif ticketsOffer.disabled != true %}
-						<a class="button" href="{{ ticketsOffer.buyButtonLink }}" target="_blank">{{ ticketsOffer.buyButtonText }}</a>
-						{% else %}
-		           		{% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
-						<span class="button disabled fallback">Ticket sales will begin on {{ ticketValidFrom[0] | date: "%-d %B %Y"}} {{ ticketValidFrom[1] }}</span>
-						{% endif %}
-					</div>
-				</div>
+    <div class="content-wrapper">
+        <div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
+            <h3>{{ site.ticketsTitle }}</h3> {% for ticketsOffer in site.ticketsOffers %} {% assign colWidth = 12 | divided_by: forloop.length %} {% assign check = forloop.index | modulo:2 %}
+            <div class="col-md-{{ colWidth }} col-sm-{{ colWidth }} pricing-col {% if ticketsOffer.featured != null %}pricing-col-featured{% endif %} animated hiding" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
+                {% if ticketsOffer.ribbon != null %}
+                <div class="pricing-ribbon">{{ ticketsOffer.ribbon }}</div>{% endif %}
+                <div class="pricing-header">
+                    <p class="title">{{ ticketsOffer.name }}</p>
+                    <p class="price">{{ ticketsOffer.price }} <span class="currency">{{ ticketsOffer.priceCurrency }}</span></p>
+                </div>
+                <div class="pricing-content">
+                    <ul>
+                        {% for listItem in ticketsOffer.ticketContentList %}
+                        <li>{{ listItem }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% if ticketsOffer.soldOut == true %}
+                    <span class="button disabled">{{ ticketsOffer.soldOutText }}</span> {% elsif ticketsOffer.disabled != true %}
+                    <a class="button" href="{{ ticketsOffer.buyButtonLink }}" target="_blank">{{ ticketsOffer.buyButtonText }}</a> {% else %} {% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
+                    <span class="button disabled fallback">Ticket sales will begin on {{ ticketValidFrom[0] | date: "%-d %B %Y"}} {{ ticketValidFrom[1] }}</span> {% endif %}
+                </div>
+            </div>
             {% endfor %}
-		</div>
-	</div>
+        </div>
+    </div>
 </section>
-
 <section id="howtobuy">
-	<div class="content-wrapper">
-		You can buy a ticket from...
-		
-	</div>
+    <div class="content-wrapper">
+        <h4>Where to buy tickets</h4>
+        <ul style="list-style-type: square;">
+            <li><b>Chesterfield:</b> Pop in for a cup of coffee and buy a ticket at ... </li>
+            <li><b>Sheffield:</b> </li>
+            <li><b>Email:</b> Make a donation at <a href="https://www.marysmeals.org.uk/fundraising/project/miguel-arrieta-eguren/sheffield-concert">Mary's Meals website</a> and forward us <a href="mailto:tickets@foodschoolhope.org">tickets@foodschoolhope.org</a> the confirmation email. You will receive an e-ticket in a few hours</li>
+        </ul>
+    </div>
 </section>
-
 <!-- End Tickets Section -->
