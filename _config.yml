@@ -72,7 +72,7 @@ aboutBlock:
  - {title: "Hope", image: "hope.jpg", text: "Thanks to thousands of local volunteers, it cost only £13.90 to feed a child for a year. Together, we can bring hope to the next child." }
 
  # About Block
-aboutLiberiaTitle: "Mary's Meals in Liberia"
+aboutLiberiaTitle: "Who are we helping?"
 aboutLiberiaBlock:
  - {title: "Liberia", image: "Liberia.jpg", text: "Starting in 1989, a brutal 14-year civil war forced most of the country’s children out of the classroom and destroyed the majority of schools. Despite a decade of unbroken peace, 60% of Liberian children don’t go to school." }
  - {title: "Mary’s Meals in Liberia", image: "food.png", text: "Mary’s Meals provide daily meals to 126,002 children across Liberia. A normal school meal consist of rice and peas, supplemented by fresh vegetables or vitamin-enriched porridge, supplemented by fresh vegetables." }
