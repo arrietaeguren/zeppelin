@@ -1,5 +1,5 @@
 <!-- About Concert Section -->
-<section id="about-concert" class="about">
+<section id="concert" class="about">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <h3>{{ site.concertTitle }}</h3>
@@ -15,7 +15,49 @@
                 {% assign animationDelay = animationDelay | plus:500 %} {% assign check = forloop.index | modulo:2 %} {% if check == 0 %}
                 <div class="clearfix visible-xs"></div> {% endif %} {% endfor %}
             </div>
-        </div> 
+        </div>
+        <div class="col-lg-10 col-lg-offset-1">
+            <h5>{{ site.venueBlockTitle }}</h5>
+            <div class="row venue-row">
+                <div class="col-md-8 col-sm-8 venue-col">
+                    <div class="venue-elem-wrapper">
+                        <div class="venue-elem image-section venue-big-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0">
+                            <section id="location-map" class="location-map" style="height: 100%">
+                                <div id="canvas-map" class="canvas-map"></div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 venue-col venue-small-col">
+                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="150" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage1 }})"></div>
+                    </div>
+                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="venue-elem venue-small-elem venue-text animated hiding" data-animation="fadeIn" data-delay="0">
+
+                            <a href="https://www.google.es/maps/place/Cathedral+Church+Of+St+Marie,+Sheffield/@53.3813338,-1.4705432,17z/data=!3m1!4b1!4m5!3m4!1s0x48798282782d5597:0x9493330df62b2093!8m2!3d53.3813338!4d-1.4683545" class="pull-right">
+                                <svg class="icon icon-direction" style="fill: white; width: 32px; height: 32px;" viewBox="0 0 32 32">
+                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-direction"></use>
+                                </svg>
+                            </a>
+
+                            <h5>{{ site.venueTitle }}</h5>
+                            {% for feature in site.venueFeatures %}
+                            <p>{{ feature }}</p>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage2 }})"></div>
+                    </div>
+                    <div class="venue-elem-wrapper col-xs-6 visible-xs">
+                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage3 }})"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
     </div>
     <!--<section id="rockstar-speakers" class="rockstar-speakers image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.rockstarSpeakersImage }});">- ->
     <div class="overlay solid-overlay"></div>
