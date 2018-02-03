@@ -68,8 +68,8 @@ heroButtons:
 aboutTitle: "About Mary's Meals"
 aboutBlock:
  - {title: "School", image: "school.jpg", text: "61 million of the world's hungriest children do not attend school" }
- - {title: "Food", image: "food.jpg", text: "Mary's Meals provide schools meals to 1,230,171 children a day" }
- - {title: "Hope", image: "hackathon.jpg", text: "Thanks to thousands of local volunteers, it cost only £13.90 to feed a child for a year" }
+ - {title: "Food", image: "food.png", text: "Mary's Meals provide schools meals to 1,230,171 children a day" }
+ - {title: "Hope", image: "hope.jpg", text: "Thanks to thousands of local volunteers, it cost only £13.90 to feed a child for a year" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
