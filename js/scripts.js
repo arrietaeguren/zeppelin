@@ -381,7 +381,7 @@
                 },
                 mapTypeId: MY_MAPTYPE_ID
             };
-            if ($(window).width() < 0*768) {
+            if ($(window).width() < 768) {
                 mapOptions.center = mobileCenterMap;
             }
             if (googleMaps == 'logistics') {
@@ -566,6 +566,7 @@
                 map.panTo(eventPlace);
                 if ($(window).width() < 768) {
                     map.setCenter(mobileCenterMap);
+                    $('venue-elem-wrapper').style.visibility = "hidden"
                 } else {
                     map.setCenter(centerMap);
                 }
