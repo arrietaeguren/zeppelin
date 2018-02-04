@@ -175,7 +175,7 @@ ticketsOffers:
   featured: true
   buyButtonLink: "#howtobuy"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Each ticket feeds 1 child for a year", ""]
+  ticketContentList: ["Each ticket feeds 1 child for a year"]
   validFrom: "2014-10-01T00:00"
   validThrough: "2018-01-01T00:00"
  -
