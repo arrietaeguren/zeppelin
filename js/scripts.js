@@ -279,7 +279,7 @@
 
     // Google maps static
     if (typeof staticGoogleMaps !== 'undefined') {
-        $('#canvas-map').addClass('image-section').css('background-image', 'url(http://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDNKCa3OcSaGyIKabz6c-zf_BXYcrEoD0w&zoom=17&center=' + mobileCenterMapCoordinates + '&size=' + $(window).width() + 'x700&scale=2&language=en&markers=icon:' + icon + '|' + eventPlaceCoordinates + '&maptype=roadmap&style=visibility:on|lightness:40|gamma:1.1|weight:0.9&style=element:labels|visibility:off&style=feature:water|hue:0x0066ff&style=feature:road|visibility:on&style=feature:road|element:labels|saturation:-30)');
+        //$('#canvas-map').addClass('image-section').css('background-image', 'url(http://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDNKCa3OcSaGyIKabz6c-zf_BXYcrEoD0w&zoom=17&center=' + mobileCenterMapCoordinates + '&size=' + $(window).width() + 'x700&scale=2&language=en&markers=icon:' + icon + '|' + eventPlaceCoordinates + '&maptype=roadmap&style=visibility:on|lightness:40|gamma:1.1|weight:0.9&style=element:labels|visibility:off&style=feature:water|hue:0x0066ff&style=feature:road|visibility:on&style=feature:road|element:labels|saturation:-30)');
     }
 
     //Google maps
@@ -566,7 +566,6 @@
                 map.panTo(eventPlace);
                 if ($(window).width() < 768) {
                     map.setCenter(mobileCenterMap);
-                    $('venue-elem-wrapper').style.visibility = "hidden"
                 } else {
                     map.setCenter(centerMap);
                 }
