@@ -280,7 +280,12 @@
     // Google maps static
     if (typeof staticGoogleMaps !== 'undefined') {
         $('#force-hidden').addClass("hidden")
-        $('#force-hidden').style.visibility = "hidden"
+        var fcanvas = document.getElementById('canvas-map')
+        fcanvas.style.visibility = "hidden"
+        fcanvas = fcanvas.parentNode
+        fcanvas.style.visibility = "hidden"
+        fcanvas = fcanvas.parentNode
+        fcanvas.style.visibility = "hidden"
         //$('#canvas-map').addClass('image-section').css('background-image', 'url(http://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDNKCa3OcSaGyIKabz6c-zf_BXYcrEoD0w&zoom=17&center=' + mobileCenterMapCoordinates + '&size=' + $(window).width() + 'x700&scale=2&language=en&markers=icon:' + icon + '|' + eventPlaceCoordinates + '&maptype=roadmap&style=visibility:on|lightness:40|gamma:1.1|weight:0.9&style=element:labels|visibility:off&style=feature:water|hue:0x0066ff&style=feature:road|visibility:on&style=feature:road|element:labels|saturation:-30)');
     }
 
