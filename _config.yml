@@ -163,7 +163,7 @@ ticketsOffers:
   #ribbon: "2 Kids"
   buyButtonLink: "#howtobuy"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Can't make it to the event?", "Invite a vulnerable adult to take your seat"]
+  ticketContentList: ["Can't make it to the event? Invite a vulnerable adult from the amazing local charity, St Wilfrid's Centre, to take your seat"]
   validFrom: "2014-08-25T10:00"
   validThrough: "2014-09-30T23:59"
  -
