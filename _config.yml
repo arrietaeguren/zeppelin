@@ -83,7 +83,7 @@ whereToTitle: "Where to buy"
 whereToBlock:
  - {title: "Sheffield", image: "sheffield.jpg", text: "Pop in for the best Guinness in town and buy a ticket at the Grapes, 80 Trippet Lane Sheffield S1 4EL" }
  - {title: "Chesterfield", image: "chesterfield.jpg", text: "Pop in for a cup of coffee and buy a ticket at Fabrico, 15 Soresby St Chesterfield S40 1JW" }
- - {title: "Email", image: "email.png", text: "Make a donation at https://www.marysmeals.org.uk and forward us the confirmation email to tickets@foodschoolhope.org. You will receive an e-ticket in a few hours" }
+ - {title: "Online", image: "email.png", text: "Make a donation at https://www.marysmeals.org.uk and forward us the confirmation email to tickets@foodschoolhope.org. You will receive an e-ticket in a few hours" }
 
 # Concert Block
 concertTitle: "Concert"
