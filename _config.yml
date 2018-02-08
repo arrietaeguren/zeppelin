@@ -96,9 +96,9 @@ aboutConcertBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "73", specialCharacter: "", info: "children fed", detail: ""}
- - {count: "505", specialCharacter: "£", info: "raised", detail: ""}
- - {count: "20", specialCharacter: "", info: "tickets sold", detail: ""}
+ - {count: "74", specialCharacter: "", info: "children fed", detail: ""}
+ - {count: "519", specialCharacter: "£", info: "raised", detail: ""}
+ - {count: "21", specialCharacter: "", info: "tickets sold", detail: ""}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
