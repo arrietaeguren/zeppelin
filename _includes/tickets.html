@@ -40,7 +40,7 @@
                         {% if mod == 0 %}
                             {{ about.text[i] }}
                         {% if mod == 2 %}
-                            <a href="{{ about.text[i] }}">{{ about.text[i] }}</a>
+                            <a href="{{ about.text[i+1] }}">{{ about.text[i] }}</a>
                         {% endif %} {% endfor %}
                         </p>
                     </div>
