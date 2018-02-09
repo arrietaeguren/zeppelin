@@ -34,14 +34,21 @@
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5>{{ about.title }}</h5>
                         <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}" height="128" width="128" alt="{{ about.title }}">
-                        <p>{{ about.text }}</p>
+                        <p>
+                        {% for i in (1..about.text) %}
+                        {% assign mod = i | modulo: 3 %}
+                        {% if mod == 0 %}
+                            {{ about.text[i] }}
+                        {% if mod == 2 %}
+                            <a href="{{ about.text[i+1] }}">{{ about.text[i] }}</a>
+                        {% endif %} {% endfor %}
+                        </p>
                     </div>
                 </div>
                 {% assign animationDelay = animationDelay | plus:500 %} {% assign check = forloop.index | modulo:2 %} {% if check == 0 %}
                 <div class="clearfix visible-xs"></div> {% endif %} {% endfor %}
             </div>
         </div>
-
         <!--<ul style="list-style-type: square;">
             <li><b>Chesterfield:</b> Pop in for a cup of coffee and buy a ticket at Fabrico <a href="https://www.google.co.uk/maps/place/Fabrico/@53.236708,-1.4308237,18.5z/data=!4m13!1m7!3m6!1s0x48798530aa43ef09:0xc71695e0730cec7!2s15+Soresby+St,+Chesterfield+S40+1JW!3b1!8m2!3d53.2366571!4d-1.4299805!3m4!1s0x0:0x8543c9988ac25213!8m2!3d53.2366361!4d-1.4300519">15 Soresby St, Chesterfield S40 1JW</a> </li>
             <li><b>Sheffield:</b> </li>
