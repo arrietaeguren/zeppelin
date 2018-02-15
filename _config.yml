@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "Music for Mary's Meals"
-email: "contact@jx10ministries"
+email: "tickets@foodschoolhope.org"
 description: "Music for Mary's Meals"
 baseurl: ""
 #url: "http://gdg-x.github.io"
@@ -31,13 +31,13 @@ organizerLink: "https://www.jx10ministries.org/sheffield-university/"
 # Head
 metaKeywords: "marysmeals, charity, children, food, concert"
 #twitterAccount: "@DevFest"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+socialImageSrcGooglePlus: "img/about-section/hope.jpg"
+socialImageSrcTwitter: "img/about-section/hope.jpg"
+socialImageSrcFacebook: "img/about-section/hope.jpg"
 
 # Documents
 #c4pUrl: "http://bit.ly/dfua-c4p"
-c4sponsorsUrl: "mailto:contact@jx10ministries"
+c4sponsorsUrl: "mailto:tickets@foodschoolhope.org"
 
 
 # Navigation
@@ -61,21 +61,21 @@ heroTitle: "<typeout>"
 typeoutTextValues: '"Music", "School", "Food", "Hope", "Mary&#39;s Meals"'
 typeoutFallback: "Mary's Meals"
 heroButtons:
-# - {link: "mailto:contact@jx10ministries", text: "Become a sponsor"}
+# - {link: "mailto:tickets@foodschoolhope.org", text: "Become a sponsor"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
 aboutTitle: "About Mary's Meals"
 aboutBlock:
- - {title: "School", image: "school.jpg", text: "61 million of the world's hungriest children do not attend school. Many must decide between working for food or education." }
- - {title: "Food", image: "food.png", text: "Mary's Meals provide schools meals to 1,230,171 children a day. Allowing them to attend schools, and increasing their attention by filling their stomachs." }
- - {title: "Hope", image: "hope.jpg", text: "Thanks to thousands of local volunteers, it cost only £13.90 to feed a child for a year. Together, we can bring hope to the next child!" }
+ - {title: "School", image: "school.jpg", text: "61 million of the world's hungriest children do not attend school. Many must decide between education and working for food." }
+ - {title: "Food", image: "food.png", text: "Mary's Meals provides schools meals to 1,230,171 children every day. Allowing them to attend schools, and increasing their attention by filling their stomachs." }
+ - {title: "Hope", image: "hope.jpg", text: "Thanks to thousands of local volunteers, it costs only £13.90 to feed a child for a year. Together, we can bring hope to the next child!" }
 
  # About Liberia Block
 aboutLiberiaTitle: "Who are we helping?"
 aboutLiberiaBlock:
  - {title: "Liberia", image: "liberia.jpg", text: "Starting in 1989, a brutal 14-year civil war forced most of the country’s children out of the classroom and destroyed the majority of schools. Despite a decade of unbroken peace, 60% of Liberian children don’t go to school." }
- - {title: "Mary’s Meals in Liberia", image: "rice.jpg", text: "Mary’s Meals provide daily meals to 126,002 children across Liberia. A normal school meal consist of rice and peas, supplemented by fresh vegetables or vitamin-enriched porridge, supplemented by fresh vegetables." }
+ - {title: "Mary’s Meals in Liberia", image: "rice.jpg", text: "Mary’s Meals provides daily meals to 126,002 children across Liberia. A normal school meal consist of rice and peas, supplemented by fresh vegetables or vitamin-enriched porridge, supplemented by fresh vegetables." }
  - {title: "Suehn Village School", image: "suehn.jpg", text: "All the funds raised will go to Suehn Village Public School, a school with 293 students in Bomi County, in the West part of Liberia." }
 
  # About Where To Buy
@@ -96,9 +96,9 @@ aboutConcertBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "74", specialCharacter: "", info: "children fed", detail: ""}
- - {count: "519", specialCharacter: "£", info: "raised", detail: ""}
- - {count: "21", specialCharacter: "", info: "tickets sold", detail: ""}
+ - {count: "78", specialCharacter: "", info: "children fed", detail: ""}
+ - {count: "569", specialCharacter: "£", info: "raised", detail: ""}
+ - {count: "24", specialCharacter: "", info: "tickets sold", detail: ""}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
