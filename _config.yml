@@ -198,13 +198,13 @@ socialLinks:
  #- {link: "https://facebook.com/GDGLviv", icon: "facebook"}
  #- {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
- #-
+-
   #title: "Links"
-  #links:
+  links:
   # - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
   # - {link: "https://developers.google.com", text: "Google Developers"}
 # -
-#  title: "Contacts"
+  title: "Contacts"
 #  links:
 #   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
  #-
@@ -218,7 +218,7 @@ footerBlocks:
 #discusShortName: "devfestua"
 
 # Speakers List Block
-#showSessions: true
+showSessions: true
 
 # Team Block
 #teamBlockTitle: "About us"
@@ -239,11 +239,11 @@ footerBlocks:
 # # Logistics Direction Details Block
 # directionDetailsImage: "direction-details.jpg"
 # directionDetailsTitle: "Get around Lviv"
-# directionDetailsCards:
+ directionDetailsCards:
 #  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
 #  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
 #  - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
-# directionDetailsWideCards:
+ directionDetailsWideCards:
 #  -
 #   title: "Questions?"
 #   subCards:
