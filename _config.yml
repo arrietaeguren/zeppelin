@@ -14,7 +14,7 @@ title: "Music for Mary's Meals"
 email: "tickets@foodschoolhope.org"
 description: "Music for Mary's Meals"
 baseurl: ""
-#url: "http://gdg-x.github.io"
+url: "foodschoolhope.org"
 permalink: "/blog/:title"
 #googleAnalyticsTrackingId: "UA-43643469-5"
 #googleAnalyticsSiteUrl: "gdg-x.github.io"
@@ -24,7 +24,7 @@ permalink: "/blog/:title"
 organizerName: "Catholic Chaplaincy"
 organizerAlternateName: "University of Sheffield Catholic Chaplaincy"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-#organizerEmail: "lviv@gdg.org.ua"
+organizerEmail: "tickets@foodschoolhope.org"
 #organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "https://www.jx10ministries.org/sheffield-university/"
 
@@ -192,12 +192,12 @@ ticketsOffers:
   validThrough: "2014-10-23T23:59"
 
 # Footer
-#socialLinks:
+socialLinks:
  #- {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
  #- {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
  #- {link: "https://facebook.com/GDGLviv", icon: "facebook"}
  #- {permalink: "/feed.xml", icon: "rss"}
-#footerBlocks:
+footerBlocks:
  #-
   #title: "Links"
   #links:
