@@ -197,14 +197,14 @@ socialLinks:
  #- {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
  #- {link: "https://facebook.com/GDGLviv", icon: "facebook"}
  #- {permalink: "/feed.xml", icon: "rss"}
-footerBlocks:
--
+#footerBlocks:
+#-
   #title: "Links"
-  links:
+#  links:
   # - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
   # - {link: "https://developers.google.com", text: "Google Developers"}
 # -
-  title: "Contacts"
+#  title: "Contacts"
 #  links:
 #   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
  #-
@@ -244,8 +244,8 @@ showSessions: true
 #  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
 #  - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
  directionDetailsWideCards:
-#  -
-#   title: "Questions?"
+  -
+   title: "Questions?"
 #   subCards:
 #    -
 #     title: "Hotels"
