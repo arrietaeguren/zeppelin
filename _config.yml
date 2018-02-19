@@ -58,7 +58,7 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
 #eventDate: "10th March 2018"
-typeoutTextValues: '"Music", "School", "Food", "Hope", "Mary&#39;s Meals"'
+typeoutTextValues: '"Music", "School", "Food", "Hope", "Mary\'s Meals"'
 typeoutFallback: "Mary's Meals"
 heroButtons:
 # - {link: "mailto:tickets@foodschoolhope.org", text: "Become a sponsor"}
@@ -101,7 +101,7 @@ statisticBlock:
  - {count: "24", specialCharacter: "", info: "tickets sold", detail: ""}
 
 # Latest News Block
-latestNewsTitle: "Latest news"
+#latestNewsTitle: "Latest news"
 
 # Rockstar Speakers Block
 #rockstarSpeakersImage: "rockstar-speakers.jpg"
