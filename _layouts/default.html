@@ -30,7 +30,7 @@ layout: compress
 
     {% if page.permalink == '/schedule/' %}
         {% include sessions-modals.html %} 
-    {% endif %} 
+    {% endif %}
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
@@ -83,6 +83,7 @@ layout: compress
                         });
                     }
                 });
+                {% if site.data.speakers %}
                 var rockstarSpeakers = [
                     {% for speaker in site.data.speakers %}
                         {% if speaker.rockstar %}
@@ -104,6 +105,7 @@ layout: compress
                         animationDelay -= 500;
                     }
                 }
+                {% endif %}
             });
         {% elsif page.permalink == '/logistics/' %}
             var googleMaps = 'logistics',

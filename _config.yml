@@ -105,7 +105,7 @@ latestNewsTitle: "Latest news"
 
 # Rockstar Speakers Block
 #rockstarSpeakersImage: "rockstar-speakers.jpg"
-#rockstarSpeakersCount: 4
+#rockstarSpeakersCount: 0
 #rockstarSpeakersTitle: "Rockstar speakers"
 #rockstarSpeakersButtonText: "See all speakers"
 
@@ -192,7 +192,7 @@ ticketsOffers:
   validThrough: "2014-10-23T23:59"
 
 # Footer
-socialLinks:
+#socialLinks:
  #- {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
  #- {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
  #- {link: "https://facebook.com/GDGLviv", icon: "facebook"}
@@ -218,7 +218,7 @@ socialLinks:
 #discusShortName: "devfestua"
 
 # Speakers List Block
-showSessions: true
+#showSessions: true
 
 # Team Block
 #teamBlockTitle: "About us"
