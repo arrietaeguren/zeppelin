@@ -100,14 +100,6 @@ statisticBlock:
  - {count: "569", specialCharacter: "£", info: "raised", detail: ""}
  - {count: "24", specialCharacter: "", info: "tickets sold", detail: ""}
 
-# Latest News Block
-#latestNewsTitle: "Latest news"
-
-# Rockstar Speakers Block
-#rockstarSpeakersImage: "rockstar-speakers.jpg"
-#rockstarSpeakersCount: 0
-#rockstarSpeakersTitle: "Rockstar speakers"
-#rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
@@ -170,7 +162,7 @@ ticketsOffers:
   name: "General Public"
   price: "£13.90"
   priceCurrency: ""
-  ticketsNumber: "100"
+  #ticketsNumber: "100"
   #ribbon: "2 Kids"
   featured: true
   buyButtonLink: "#howtobuy"
@@ -182,7 +174,7 @@ ticketsOffers:
   name: "Student"
   price: "£6.95"
   priceCurrency: ""
-  ticketsNumber: "50"
+  #ticketsNumber: "50"
   #ribbon: ""
   buyButtonLink: "#howtobuy"
   buyButtonText: "Buy Now"
