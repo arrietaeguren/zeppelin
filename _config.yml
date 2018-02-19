@@ -81,9 +81,9 @@ aboutLiberiaBlock:
  # About Where To Buy
 whereToTitle: "Where to buy"
 whereToBlock:
- - {title: "Sheffield", image: "sheffield.jpg", text: "Pop in for the best Guinness in town and buy a ticket at the Grapes, 80 Trippet Lane Sheffield S1 4EL" }
- - {title: "Chesterfield", image: "chesterfield.jpg", text: "Pop in for a cup of coffee and buy a ticket at Fabrico, 15 Soresby St Chesterfield S40 1JW" }
- - {title: "Online", image: "email.png", text: "Make a donation at [marysmeals.org.uk](https://www.marysmeals.org.uk), show the confirmation email at the entrance of the event" }
+ - {title: "Sheffield", image: "sheffield.jpg", text: "Pop in for the best Guinness in town and buy a ticket at the Grapes, 80 Trippet Lane Sheffield S1 4EL." }
+ - {title: "Chesterfield", image: "chesterfield.jpg", text: "Pop in for a cup of coffee and buy a ticket at Fabrico, 15 Soresby St Chesterfield S40 1JW." }
+ - {title: "Online", image: "email.png", text: "Make a donation at [marysmeals.org.uk](https://www.marysmeals.org.uk/fundraising/project/miguel-arrieta-eguren/sheffield-concert) and forward the confirmation email to ticket@foodschoolhope.org. You will receive an e-ticket soon." }
 
 # Concert Block
 concertTitle: "Concert"
