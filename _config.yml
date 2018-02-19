@@ -58,7 +58,7 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
 #eventDate: "10th March 2018"
-typeoutTextValues: '"Music", "School", "Food", "Hope", "Mary\'s Meals"'
+typeoutTextValues: '"Music", "Food", "School", "Hope", "Mary''s Meals"'
 typeoutFallback: "Mary's Meals"
 heroButtons:
 # - {link: "mailto:tickets@foodschoolhope.org", text: "Become a sponsor"}
