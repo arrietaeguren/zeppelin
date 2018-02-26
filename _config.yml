@@ -96,9 +96,9 @@ aboutConcertBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "78", specialCharacter: "", info: "children fed", detail: ""}
- - {count: "569", specialCharacter: "£", info: "raised", detail: ""}
- - {count: "24", specialCharacter: "", info: "tickets sold", detail: ""}
+ - {count: "240", specialCharacter: "", info: "children fed", detail: ""}
+ - {count: "2637", specialCharacter: "£", info: "raised", detail: ""}
+ - {count: "175", specialCharacter: "", info: "tickets sold", detail: ""}
 
 
 # Location Block
