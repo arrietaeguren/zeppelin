@@ -1,9 +1,9 @@
 - 
   group: "Main sponsor"
   elements:     
-    - {name: "Statisi - A Dr Sam Beatson Company providing analytical solutions to economic and financial challenges for public sector and commercial organisations seeking to successfully navigate simple and complex projects and problems in a changing world of big data and diverse pressures.", description: "Statisi - A Dr Sam Beatson Company providing analytical solutions to economic and financial challenges for public sector and commercial organisations seeking to successfully navigate simple and complex projects and problems in a changing world of big data and diverse pressures.", link: "www.statisi.com ", imageUrl: "statisi.png"}
+    - {width: "50%", name: "Statisi - A Dr Sam Beatson Company providing analytical solutions to economic and financial challenges for public sector and commercial organisations seeking to successfully navigate simple and complex projects and problems in a changing world of big data and diverse pressures.", description: "Statisi - A Dr Sam Beatson Company providing analytical solutions to economic and financial challenges for public sector and commercial organisations seeking to successfully navigate simple and complex projects and problems in a changing world of big data and diverse pressures.", link: "www.statisi.com ", imageUrl: "statisi.png"}
 - 
-  group: "General sponsor"
+  group: "General sponsors"
   elements:
-    - {name: "St Marie Cathedral", description: "St Marie Cathedral", link: "http://stmariecathedral.org/", imageUrl: "stmarie.png"}
-    - {name: "Charity, Unity, and Fraternity - Knights of St Columba, Council 521 (Sheffield)", description: "Charity, Unity, and Fraternity - Knights of St Columba, Council 521 (Sheffield)", link: "https://en.m.wikipedia.org/wiki/Knights_of_St_Columba", imageUrl: "ksc.png"}
+    - {width: "33%", name: "St Marie Cathedral", description: "St Marie Cathedral", link: "http://stmariecathedral.org/", imageUrl: "stmarie.png"}
+    - {width: "33%", name: "Charity, Unity, and Fraternity - Knights of St Columba, Council 521 (Sheffield)", description: "Charity, Unity, and Fraternity - Knights of St Columba, Council 521 (Sheffield)", link: "https://en.m.wikipedia.org/wiki/Knights_of_St_Columba", imageUrl: "ksc.png"}
