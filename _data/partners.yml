@@ -1,7 +1,7 @@
 - 
   group: "Main sponsor"
   elements:     
-    - {width: "50%", name: "Statisi - A Dr Sam Beatson Company providing analytical solutions to economic and financial challenges for public sector and commercial organisations seeking to successfully navigate simple and complex projects and problems in a changing world of big data and diverse pressures.", description: "Statisi - A Dr Sam Beatson Company providing analytical solutions to economic and financial challenges for public sector and commercial organisations seeking to successfully navigate simple and complex projects and problems in a changing world of big data and diverse pressures.", link: "www.statisi.com ", imageUrl: "statisi.png"}
+    - {width: "40%", name: "Statisi - A Dr Sam Beatson Company providing analytical solutions to economic and financial challenges for public sector and commercial organisations seeking to successfully navigate simple and complex projects and problems in a changing world of big data and diverse pressures.", description: "Statisi - A Dr Sam Beatson Company providing analytical solutions to economic and financial challenges for public sector and commercial organisations seeking to successfully navigate simple and complex projects and problems in a changing world of big data and diverse pressures.", link: "www.statisi.com ", imageUrl: "statisi.png"}
 - 
   group: "General sponsors"
   elements:
